@@ -1,6 +1,9 @@
+@import '/mixins/colors.scss';
+
+
 .container {
     transition: 0.3s;
-    background-color: #fff;
+    background-color: $navbars-bg-color-primary;
 
     position: fixed;
     width: 100%;
@@ -37,4 +40,17 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.btn{
+    background: transparent;
+    color: $button-color-secundary;
+    border-bottom: 4px solid $button-color-secundary;
+    border-left: none; 
+    border-right: none; 
+    border-top: none; 
+    height: 10vh;
+    padding: 10px 20px;
+    display: inline-block;
+    
 }

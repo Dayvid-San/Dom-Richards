@@ -1,0 +1,9 @@
+@import '/mixins/colors.scss';
+
+
+.btn{
+    background-color: $button-bg-color-primary;
+    color: $button-color-primary;
+    border: none;
+    padding: 1em;
+}
